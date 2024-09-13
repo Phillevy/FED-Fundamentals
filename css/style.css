@@ -1,0 +1,183 @@
+/* Menu
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.menu
+{
+    margin: 1rem 0;
+    padding: 0 0 1rem 0;
+    list-style: none;
+}
+
+.menu li
+{
+    display: block;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+}
+
+.menu li a
+{
+    margin: 0;
+    display: inherit;
+    padding: 0.5rem 0.5rem 0.25rem 0.5rem;
+    text-decoration: none;
+    color: inherit;
+    vertical-align: bottom;
+    box-sizing: border-box;
+    width: auto;
+    border-bottom: 1px solid #ccc;
+}
+
+.menu li.selected a
+{
+    border-bottom: 0.3rem solid #029FB4;
+}
+
+.menu li:hover a
+{
+    color: #1EAEDB;
+}
+
+@media (min-width: 576px)
+{
+    .menu
+    {
+        margin: 0;
+        padding: 0;
+    }
+
+    .menu li
+    {
+        display: inline-block;
+        width: auto;
+    }
+
+    .menu li a
+    {
+        padding: 1rem 1rem 1.3rem 1rem;
+        border-bottom: none;
+    }
+
+    .menu li.selected a
+    {
+        padding-bottom: 1rem;
+    }
+}
+
+/* Header
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.logo
+{
+    padding: 1rem 0 1.3rem 0;
+}
+
+.inventory
+{
+    display: flex;
+    align-items: flex-end;
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 1rem 1rem 1.3rem 1rem;
+}
+
+.user
+{
+    display: flex;
+    align-items: flex-end;
+    padding: 1rem 0 1.3rem 0;
+    height: 2.7rem;
+}
+
+.user-company
+{
+    padding-right: 1rem;
+}
+
+.account
+{
+    position: relative;
+}
+
+.account .account-number
+{
+    position: absolute;
+    top: -0.6rem;
+    right: -0.6rem;
+    background-color: #040138;
+    color: #fff;
+    border-radius: 50%;
+    height: 1.2rem;
+    width: 1.2rem;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    font-weight: normal;
+}
+
+.filters
+{
+    background-color: #040138;
+    color: #FFFFFF;
+}
+
+/* Main
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+main
+{
+    background-color: #F2F2F2;
+    padding: 2rem 0;
+}
+
+.page-content
+{
+    background-color: white;
+    box-shadow: 0 1px 2px #cccccc;
+    border-radius: 1rem;
+    padding: 0;
+}
+
+.page-content-data
+{
+    overflow: auto;
+}
+
+.page-content-header
+{
+    padding: 2rem 2rem 0 2rem;
+}
+
+.page-content-footer
+{
+    padding: 0 2rem 2rem 2rem;
+}
+
+.imgbox
+{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid #707070;
+    display: inline-block;
+}
+
+.pagination--no_text .button span
+{
+    display: none;
+}
+
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+footer .menu
+{
+    font-size: 0.875rem;
+}
+
+footer .menu a
+{
+    color: #646464;
+    padding: 0.5rem;
+}
+
+.copyright
+{
+    margin: 1rem 0;
+}
